@@ -4,19 +4,29 @@ import { connect } from 'react-redux';
 import { noteItemTitle } from '../actions';
 
 class Input extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      inputValue: ''
+    }
+  }
+  
   handleNoteTitle = e => {
     if (e.key === 'Enter') {
       this.props.noteItemTitle(e.target.value);
+      e.target.value = '';
     }
   }
   
   render() {
     return (
+      <div>
       <input
         type='text' 
         placeholder='Note Name' 
         onKeyDown={e => this.handleNoteTitle(e)} 
       />
+      </div>
     );
   }
 };

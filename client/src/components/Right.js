@@ -1,12 +1,13 @@
 import React from 'react';
 
+import CurrentNote from '../containers/CurrentNote';
 import TextArea from '../containers/TextArea';
 
 const Right = () => {
   return (
     <div className='right'>
       <div>
-        <p className='current-note'>NoteName</p>
+        <CurrentNote />
       </div>
       
       <div className='text-area-div'>

@@ -25,12 +25,24 @@ input {
 ul {
   list-style: none;
   padding: 0;
+  width: 100%;
+}
+
+li {
+  margin-bottom: 1em;
+  margin-left: .2em;
+}
+
+li:hover {
+  background-color: lightgreen;
+  cursor: pointer;
 }
 
 /**********************/
 /**********************/
 
 .current-note {
+  color: green;
   text-align: center;
   text-decoration: underline;
 }
