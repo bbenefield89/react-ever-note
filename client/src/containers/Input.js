@@ -23,7 +23,7 @@ class Input extends Component {
       <div>
       <input
         type='text' 
-        placeholder='Note Name' 
+        placeholder='Start taking notes' 
         onKeyDown={e => this.handleNoteTitle(e)} 
       />
       </div>

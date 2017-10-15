@@ -22,8 +22,8 @@ class NoteList extends Component {
       <div>
         {
           noteTitle.length > 0 ?
-            <ul>{noteItemsMap}</ul> : 
-            <p>Start taking notes!</p>
+          <ul>{noteItemsMap}</ul> : 
+          null
         }
       </div>
     );

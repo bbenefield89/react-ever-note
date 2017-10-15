@@ -15,10 +15,8 @@ body {
 }
 
 input {
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid black;
-  border-left: 0;
+  font-size: .8em;
+  margin-top: 1.75em;
   width: 90%;
 }
 
@@ -42,7 +40,6 @@ li:hover {
 /**********************/
 
 .current-note {
-  color: green;
   text-align: center;
   text-decoration: underline;
 }
