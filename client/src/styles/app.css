@@ -8,10 +8,26 @@ body {
 
 .left {
   float: left;
-  height: auto;
+  height: 79vh;
   text-align: center;
   text-decoration: underline;
   width: 40vw;
+}
+
+.left-small {
+  width: 23vw !important;
+}
+
+.note-list-title {
+  margin-left: 1em;
+}
+
+.buns {
+  float: right;
+}
+
+.buns:hover {
+  cursor: pointer;
 }
 
 input {
