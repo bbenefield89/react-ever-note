@@ -9,7 +9,7 @@ class CurrentNote extends Component {
       <div>
         {
           currentNote === '' ?
-          <h3 className='current-note'>Current Note</h3> :
+          <h3 className='current-note'>Introduction</h3> :
           <h3 className='current-note'>{noteTitle[currentNote]}</h3>
         }
       </div>
