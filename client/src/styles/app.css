@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 .landing-page-nav-links {
   float: right;
   padding-top: .7em;
@@ -33,6 +37,10 @@ a {
 
 .landing-page-nav-links > li {
   display: inline;
+}
+
+.landing-page-nav-links > li:hover {
+  cursor: not-allowed;
 }
 
 .landing-page-nav-links > li:first-child {
@@ -54,8 +62,16 @@ h1 {
   text-align: center;
 }
 
-main > p {
+.p-div {
+  padding: 0 10%;
+}
+
+.p-div > p {
   text-align: center;
+}
+
+.link:hover {
+  cursor: default;
 }
 
 button {
@@ -68,6 +84,10 @@ button {
   margin: 0 auto;
   padding: .8em;
   outline: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 /**********************/
