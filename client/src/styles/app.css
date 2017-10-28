@@ -1,9 +1,76 @@
 body {
   font-family: 'Sanchez', serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
+/**********************/
+/**********************/
+
+.landing-page-nav {
+  border-bottom: 1px solid black;
+  overflow: auto;
+  padding: 0 4%;
+}
+
+.take-notes-logo {
+  color: #0D9F40;
+  float: left;
+  font-size: 1.6em;
+  margin-top: .68em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.landing-page-nav-links {
+  float: right;
+  padding-top: .7em;
+  width: auto;
+}
+
+.landing-page-nav-links > li {
+  display: inline;
+}
+
+.landing-page-nav-links > li:first-child {
+  margin-right: 10px;
+}
+
+/**********************/
+/**********************/
+
+main {
+  padding: 2em;
+}
+
+h1 {
+  font-size: 1.75em;
+  letter-spacing: 2px;
+  line-height: 40px;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+main > p {
+  text-align: center;
+}
+
+button {
+  background-color: #0D9F40;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  display: block;
+  font-size: 1.25em;
+  margin: 0 auto;
+  padding: .8em;
+  outline: none;
+}
+
+/**********************/
 /**********************/
 
 .left {
@@ -11,11 +78,6 @@ body {
   height: 79vh;
   text-align: center;
   text-decoration: underline;
-  width: 40vw;
-}
-
-.left-small {
-  width: 23vw !important;
 }
 
 .note-list-title {
