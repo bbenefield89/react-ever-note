@@ -15,12 +15,14 @@ const LandingPage = () => {
       <main>
         <h1>Welcome to Take Notes! The easiest way to never forget!</h1>
         
-        <p>
-          Organize your life. Important work event next month? Birthday party? Never 
-          forget another important date with the help of notifications sent to you a week 
-           or the day before your next event.
-        </p>
-        <Link to='/notes'>
+        <div className='p-div'>
+          <p>
+            Organize your life. Important work event next month? Birthday party? Never 
+            forget another important date with the help of notifications sent to you a week 
+             or the day before your next event.
+          </p>
+        </div>
+        <Link to='/notes' className='link'>
           <button type='button'>Start taking notes</button>
         </Link>
       </main>
