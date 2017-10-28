@@ -1,14 +1,17 @@
 import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 
-import Left from './Left';
-import Right from './Right';
+import LandingPage from './LandingPage';
+import Notes from './Notes';
 
 const App = () => {
   return (
-    <div className='container'>
-      <Left />
-      <Right />
-    </div>
+    <BrowserRouter>
+      <div>
+        <Route exact path='/' component={LandingPage} />
+        <Route path='/notes' component={Notes} />
+      </div>
+    </BrowserRouter>
   );
 };
 
