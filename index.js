@@ -13,9 +13,10 @@ app.use(bodyParser.json());
 // tells express where to serve our frontend from
 app.use(express.static(path.join(__dirname, 'client/build')));
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'/client/build/index.html'));
-});
+routes(app);
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname+'/client/build/index.html'));
+// });
 
 // this is going to get our backend server up and running
 app.listen(PORT, () => {
