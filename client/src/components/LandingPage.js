@@ -19,7 +19,7 @@ const LandingPage = () => {
           <p>
             Organize your life. Important work event next month? Birthday party? Never 
             forget another important date with the help of notifications sent to you a week 
-             or the day before your next event.
+            or the day before your next event.
           </p>
         </div>
         <Link to='/notes' className='link'>
