@@ -1,7 +1,7 @@
 import React from 'react';
 
-import CurrentNote from '../containers/CurrentNote';
-import TextArea from '../containers/TextArea';
+import CurrentNote from '../../containers/CurrentNote';
+import TextArea from '../../containers/TextArea';
 
 const Right = () => {
   return (

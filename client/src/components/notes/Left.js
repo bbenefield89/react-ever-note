@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Input from '../containers/Input';
-import NoteList from '../containers/NoteList';
+import Input from '../../containers/Input';
+import NoteList from '../../containers/NoteList';
 
 const Left = () => {
   const handleNoteListWidth = () => {

@@ -6,9 +6,15 @@ const LandingPage = () => {
     <div>
       <nav className='landing-page-nav'>
         <span className='take-notes-logo'>Take Notes!</span>
+        
         <ul className='landing-page-nav-links' style={{ display: 'inline' }}>
-          <li>Sign Up</li>
-          <li>Log In</li>
+          <Link to='/auth/signup'>
+            <li>Sign Up</li>
+          </Link>
+          
+          <Link to='#'>
+            <li>Log In</li>
+          </Link>
         </ul>
       </nav>
       
@@ -22,11 +28,11 @@ const LandingPage = () => {
             or the day before your next event.
           </p>
         </div>
+        
         <Link to='/notes' className='link'>
           <button type='button'>Start taking notes</button>
         </Link>
       </main>
-      
     </div>
   );
 };
