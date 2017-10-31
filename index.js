@@ -8,7 +8,7 @@ const routes = require('./routes');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// alot of info around `bodyParser` for now, just know that it creates a new object on the `req` object
+// alot of info around `bodyParser`, just know that it creates a new object on the `req` object
 // i.e. `req.body.`
 app.use(bodyParser.json());
 // tells express where to serve our frontend from
